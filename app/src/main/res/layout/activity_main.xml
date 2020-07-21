@@ -10,11 +10,20 @@
         android:layout_height="0dp"
         android:layout_weight="1.0">
         <ImageView
+            android:id="@+id/lucky_wheel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/lucky_wheel"
+            android:src="@drawable/lucky_wheel2"
             android:adjustViewBounds="true"
             android:layout_centerInParent="true"
+            android:layout_marginTop="20sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="▼"
+            android:textSize="100sp"
+            android:layout_centerHorizontal="true"
             />
         <Button
             android:layout_width="wrap_content"
@@ -23,7 +32,8 @@
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
             android:layout_marginBottom="40sp"
-            android:padding="20sp"/>
+            android:padding="20sp"
+            android:id="@+id/button_start_spin"/>
     </RelativeLayout>
 
 </LinearLayout>
